@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python .\pruebaConexion.py'
+                sh 'python pruebaConexion.py'
             }
         }
     }
